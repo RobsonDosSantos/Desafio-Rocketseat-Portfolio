@@ -160,8 +160,12 @@ main {
   gap: 5px;
 }
 
-.card-projeto {
+#decoration {
+  text-decoration: none;
   flex-grow: 1;
+}
+
+.card-projeto {
   padding: 20px 20px 0px 20px;
 }
 
@@ -179,7 +183,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 #conteudo-avaliacao {
