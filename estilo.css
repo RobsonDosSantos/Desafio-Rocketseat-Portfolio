@@ -231,7 +231,7 @@ main {
 }
 
 /* Media Query */
-@media (max-width: 376px) {
+@media (min-width: 320px) and (max-width: 768px) {
   .container-flex {
     flex-direction: column;
   }
